@@ -22,7 +22,7 @@ def main():
 
     model = EmbeddingModel(config.EMBEDDING_MODEL_NAME)
 
-    query = "ถุงยางอนามัยแตกต้องทำยังไง"
+    query = "อยากเริ่มเล่นเวทเทรนนิ่งต้องเริ่มอย่างไร"
     print(f" Exp Query: {query}")
 
     query_vector = model.encode_query(query)

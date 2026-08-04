@@ -28,7 +28,7 @@ def main():
     store.load(config.FAISS_INDEX_FILE)
     chunks = load_chunk_store(config.CHUNK_STORE_FILE)
 
-    query = "ถุงยางอนามัยแตกต้องทำยังไง"
+    query = "อยากเริ่มเล่นเวทเทรนนิ่งต้องเริ่มอย่างไร"
     print(f"Exp Query: {query}")
 
     query_vector = model.encode_query(query)

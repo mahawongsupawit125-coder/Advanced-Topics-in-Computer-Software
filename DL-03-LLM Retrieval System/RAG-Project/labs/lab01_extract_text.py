@@ -3,7 +3,7 @@
 
 
 """
-LAB 1: Read the original data file (data/sex_q_a.txt) and 
+LAB 1: Read the original data file (data/fitness_q_a.txt) and 
 extract question-answer pairs. Save the results to outputs/extracted_text.json
 
 Compile: python labs/lab01_extract_text.py
